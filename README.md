@@ -1,2 +1,11 @@
-# num2Words_in
-A lightweight Java library to convert numbers to words using the Indian Numbering System (Lakh, Crore)
+# Number to Words (Java Library)
+
+A lightweight open-source Java library to convert numbers into words
+following the Indian Numbering System (Lakh, Crore).
+
+## ✨ Example
+
+```java
+NumberToWords.convert(253);       // two hundred and fifty three
+NumberToWords.convert(1000000);   // ten lakh
+
