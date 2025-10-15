@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.mayank</groupId>
-    <artifactId>num2Words_in</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <!-- Group and Artifact -->
+    <groupId>com.github.mayankjain</groupId>
+    <artifactId>num2words-in</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
 
+    <!-- Project Information -->
+    <name>num2words-in</name>
+    <description>A lightweight Java library to convert numbers to words using the Indian Numbering System (Lakh, Crore)</description>
+    <url>https://github.com/Mayankjainx/num2words-in</url>
+
+    <!-- Licensing Info -->
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <!-- Developer Info -->
+    <developers>
+        <developer>
+            <id>mayankjain</id>
+            <name>Mayank Jain</name>
+            <email>mayankjain88711@gmail.com</email>
+        </developer>
+    </developers>
+
+    <!-- SCM (Source Code Management) Info -->
+    <scm>
+        <connection>scm:git:git://github.com/Mayankjainx/num2words-in.git</connection>
+        <developerConnection>scm:git:ssh://github.com:Mayankjainx/num2words-in.git</developerConnection>
+        <url>https://github.com/Mayankjainx/num2words-in</url>
+        <tag>v1.0.0</tag>
+    </scm>
+
+    <!-- Java Version -->
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <java.version>21</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
 </project>
