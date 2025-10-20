@@ -26,15 +26,21 @@ NumberToWords.convert(1000000);   // ten lakh
 ---
 ##maven dependency
 
-<repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
+        <repositories>
+		<repository>
+			<id>central</id>
+			<url>https://repo.maven.apache.org/maven2</url>
+		</repository>
+		<repository>
+			<id>github</id>
+			<name>GitHub mayankjainx Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/mayankjainx</url>
+                </repository>
+        </repositories>
 
-    <dependency>
-        <groupId>com.github.Mayankjainx</groupId>
-        <artifactId>num2Words_in</artifactId>
-        <version>-SNAPSHOT</version>
-    </dependency>
+
+                <dependency>
+			<groupId>com.github.mayankjainx</groupId>
+			<artifactId>num2words-in</artifactId>
+			<version>1.0.0</version>
+		</dependency>
